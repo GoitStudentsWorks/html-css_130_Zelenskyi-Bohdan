@@ -150,7 +150,7 @@
   }
 
   .assortment-caption {
-    width: 768px;
+    max-width: 768px;
   }
 
   .assortment-caption-title {
@@ -164,8 +164,4 @@
   .assortment-list-item {
     width: calc((100% - 72px) / 4);
   }
-
-  /* .assortment-list-button {
-    width: 310px;
-  } */
 }
