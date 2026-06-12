@@ -69,6 +69,31 @@
   padding-top: 24px;
 }
 
+@media (min-width: 768px) {
+  .footer__container {
+    padding-block: 40px;
+  }
+
+  .footer__top {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer__nav {
+    display: block;
+    flex-basis: 100%;
+    order: 3;
+  }
+
+  .footer__nav-list {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px 20px;
+  }
+}
+
 @media (min-width: 1440px) {
   .footer__container {
     padding-block: 48px;
