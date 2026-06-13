@@ -2,7 +2,7 @@
   background-color: #5e8a4d;
   padding: 64px 16px;
   color: #ffffff;
-  font-family: 'Public Sans' sans-serif;
+  font-family: 'Public Sans', sans-serif;
 }
 
 .faq-list {
@@ -57,4 +57,25 @@
   width: 24px;
   height: 24px;
   fill: #ffffff;
+}
+
+.faq-content {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1440px) {
+  .faq-section .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+  }
+
+  .faq-content {
+    max-width: 400px;
+  }
+
+  .faq-list {
+    flex: 1;
+  }
 }
