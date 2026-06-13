@@ -14,7 +14,7 @@
       var(--opacity-neutral-darkest-40) 0%,
       var(--opacity-neutral-darkest-40) 100%
     ),
-    url(/img/hero-section-img/hero-image-m.jpg);
+    url(/img/hero-section-img/hero-image-m.webp);
 }
 .hero-container {
   display: flex;
@@ -84,7 +84,7 @@
         var(--opacity-neutral-darkest-40) 0%,
         var(--opacity-neutral-darkest-40) 100%
       ),
-      url(/img/hero-section-img/hero-image-m@2x.jpg);
+      url(/img/hero-section-img/hero-image-m@2x.webp);
   }
 }
 @media screen and (min-width: 768px) {
@@ -103,7 +103,7 @@
         var(--opacity-neutral-darkest-40) 0%,
         var(--opacity-neutral-darkest-40) 100%
       ),
-      url(/img/hero-section-img/hero-image-t.jpg);
+      url(../img/hero-section-img/hero-image-t.webp);
   }
 
   .hero-container {
@@ -127,7 +127,7 @@
         var(--opacity-neutral-darkest-40) 0%,
         var(--opacity-neutral-darkest-40) 100%
       ),
-      url(/img/hero-section-img/hero-image-t@2x.jpg);
+      url(/img/hero-section-img/hero-image-t@2x.webp);
   }
 }
 
@@ -144,7 +144,7 @@
         var(--opacity-neutral-darkest-40) 0%,
         var(--opacity-neutral-darkest-40) 100%
       ),
-      url(/img/hero-section-img/hero-image-d.jpg);
+      url(../img/hero-section-img/hero-image-d.webp);
   }
 
   .hero-section-title {
@@ -164,6 +164,6 @@
         var(--opacity-neutral-darkest-40) 0%,
         var(--opacity-neutral-darkest-40) 100%
       ),
-      url(/img/hero-section-img/hero-image-d@2x.jpg);
+      url(../img/hero-section-img/hero-image-t@2x.webp);
   }
 }
