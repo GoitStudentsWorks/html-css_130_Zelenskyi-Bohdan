@@ -1,11 +1,8 @@
-.mission {
-  padding: 64px 0;
-}
-
 .mission-container {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  padding-block: 64px;
 }
 .mission-text {
   display: flex;
@@ -20,29 +17,21 @@ line-height: 1.2;
 letter-spacing: -0.01em;
 color: var(--color-scheme-1-text);
 }
-
 .mission-text-desc {
   font-weight: 400;
   font-size: 18px;
-  margin-top: 24px;
   line-height: 1.5;
   color: var(--color-scheme-1-text);
 }
 
-
 @media (min-width: 768px) {
   .mission-text {
   flex-direction: row;
-  
 }
 
 .mission-text-desc {
   max-width: 340px;
   margin-top: 0;
-}
-
-.mission-img {
-  width: 100%;
 }
 }
 
@@ -50,9 +39,8 @@ color: var(--color-scheme-1-text);
   .mission {
     padding: 112px 0;
   }
-
+  
   .mission-container {
-    max-width: 1440px;
     gap: 80px;
   }
   
