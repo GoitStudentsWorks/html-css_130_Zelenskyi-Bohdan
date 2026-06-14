@@ -69,6 +69,11 @@ html {
   scroll-behavior: smooth;
 }
 
+body.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
 body {
   font-family: 'Public Sans', 'Chivo', sans-serif;
   color: #010400;
