@@ -40,12 +40,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding: 0 16px; */
-}
-
-.menu-logo-link {
-  margin-top: 8px;
-  margin-bottom: 8px;
+  padding-block: 6px;
 }
 
 .menu-logo {
