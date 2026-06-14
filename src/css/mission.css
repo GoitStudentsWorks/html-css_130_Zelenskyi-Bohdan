@@ -23,7 +23,9 @@ color: var(--color-scheme-1-text);
   line-height: 1.5;
   color: var(--color-scheme-1-text);
 }
-
+.mission-img {
+  width:100%;}
+  
 @media (min-width: 768px) {
   .mission-text {
   flex-direction: row;
