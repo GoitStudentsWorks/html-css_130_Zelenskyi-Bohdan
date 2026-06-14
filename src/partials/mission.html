@@ -10,10 +10,30 @@
     </p>
     </div>
 
+    <picture>
+      <source
+      media="(min-width: 1440px)"
+        srcset="
+      /img/mission/mission.webp 1x,
+      /img/mission/mission@2x.webp 2x
+    ">
+      <source
+        media="(min-width: 768px)"
+        srcset="
+      /img/mission/mission-t@1x.webp 1x,
+      /img/mission/mission-t@2x.webp 2x
+    ">
+
     <img class="mission-img"
-    src="/img/mission/mission.webp"
-    alt="mission"
-    srcset="/img/mission/mission.webp 1x, /img/mission/mission@2x.webp 2x"
-    />
+    src="./img/mission/mission-m@1x.webp"
+    srcset="
+      /img/mission/mission-m@1x.webp 1x,
+      /img/mission/mission-m@2x.webp 2x
+    "
+    alt="Four friends smiling and unpacking fresh vegetables and fruits from reusable cotton bags together"
+    width="343"
+    height="193"
+    loading="lazy">
+    </picture>
   </div>
 </section>
