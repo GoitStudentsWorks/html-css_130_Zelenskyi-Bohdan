@@ -1,8 +1,10 @@
 .faq-section {
   background-color: var(--color-scheme-4-background);
-  padding: 64px 16px;
   color: var(--color-scheme-4-text);
-  font-family: var(--font-family);
+}
+
+.faq-container {
+  padding-block: 64px;
 }
 
 .faq-content {
