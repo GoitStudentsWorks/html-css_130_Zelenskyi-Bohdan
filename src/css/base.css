@@ -59,8 +59,8 @@
   --color-error-red: #a00000;
 
   /*Font variables*/
-  --font-family: "Public Sans", sans-serif;
-  --second-family: "Chivo", sans-serif;
+  --font-family: 'Public Sans', sans-serif;
+  --second-family: 'Chivo', sans-serif;
 }
 
 html {
