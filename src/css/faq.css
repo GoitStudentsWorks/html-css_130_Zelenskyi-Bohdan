@@ -83,11 +83,25 @@
 @media (min-width: 1440px) {
   .faq-container {
     flex-direction: row;
-    gap: 80px;
+    gap: 24px;
     padding-block: 112px;
   }
 
   .faq-info {
     gap: 32px;
+    min-width: 421px;
+  }
+
+  .faq-title {
+    font-size: 48px;
+  }
+
+  .faq-text {
+    max-width: 362px;
+  }
+
+  .faq-list {
+    width: 100%;
+    flex: 1 0 0;
   }
 }
