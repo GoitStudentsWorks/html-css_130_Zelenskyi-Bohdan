@@ -49,11 +49,12 @@
   transition: opacity var(--transition);
 }
 
-.contacts__address-link:hover {
+.contacts__address-link:hover,
+.contacts__address-link:focus {
   opacity: 0.5;
 }
 
-.contacts__address-link:focus {
+.contacts__address-link:active {
   opacity: 0.6;
 }
 
